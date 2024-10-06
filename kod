@@ -1,0 +1,27 @@
+using System;
+using System.IO;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Threading;
+using System.Xml.Linq;
+using System.Runtime.Remoting.Messaging;
+
+namespace кс2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            int a = -15;
+            long b = 4134121;
+
+            a = (int)b;
+
+            Console.WriteLine(a);
+
+        }
+    }
+}
